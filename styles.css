@@ -1,0 +1,42 @@
+/* CSS Reset */
+
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+/* End reset */
+
+body{
+    background-color: black;
+}
+
+.biglist{
+    font-weight: bold;
+}
+
+main ul{
+    /* background-color: rebeccapurple; */
+    /* border: 1px red solid; */
+    max-width: 50%;
+    margin: auto;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: aqua; */
+}
