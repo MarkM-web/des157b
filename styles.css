@@ -23,6 +23,11 @@ body{
 
 .biglist{
     font-weight: bold;
+    font-size: larger;
+}
+
+.smalllist{
+    font-weight: 100;
 }
 
 main ul{
@@ -32,6 +37,11 @@ main ul{
     margin: auto;
     list-style-type: none;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    /* max-height: 500px; */
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 a{
