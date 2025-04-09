@@ -79,3 +79,10 @@ a{
     color: white;
     background-color: black;
 }
+
+.toggle{
+    position: absolute;
+    left: 940px;
+    top:237px;
+    height: 50px;
+}

@@ -19,7 +19,7 @@
             for (let i = 0; i < listOfTogglable.length; i++){
                 listOfTogglable[i].classList = 'toggable light'
             }
-            myButton.classList = 'lightbtn';
+            myButton.classList = 'lightbtn toggle';
             myHeader.src = "images/header_light.svg";
             darkMode = false;
         } else {
@@ -27,7 +27,7 @@
             for (let i = 0; i < listOfTogglable.length; i++){
                 listOfTogglable[i].classList = 'toggable dark'
             }
-            myButton.classList = 'darkbtn';
+            myButton.classList = 'darkbtn toggle';
             myHeader.src = "images/header_dark.svg";
 
             darkMode = true;
