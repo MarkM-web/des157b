@@ -1,0 +1,47 @@
+/* CSS Reset */
+
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    /* display: block; */
+    position: fixed;
+    top: -30px;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+    /* display: none; */
+}
+
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+.myVideo{
+    position: fixed;
+    /* right: 0; */
+    /* bottom: 0; */
+    /* left:32%;
+    top:20%; */
+    max-width: 36%;
+    top:20%;
+    /* min-width: 30%; */
+    /* min-height: 30%; */
+    filter: hue-rotate(20deg) contrast(200%);
+}
+.center{
+    left:32%;
+}
+
+.left{
+    left: -10%;
+}
+
+.right{
+    left: 83%;
+}
