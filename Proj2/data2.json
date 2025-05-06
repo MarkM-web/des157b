@@ -1,0 +1,70 @@
+{
+    "point1": {
+        "date": "14",
+        "wakeTime": "11:04"
+    },
+    "point2": {
+        "date": "15",
+        "wakeTime": "08:06"
+    },
+    "point3": {
+        "date": "16",
+        "wakeTime": "09:04"
+    },
+    "point4": {
+        "date": "17",
+        "wakeTime": "09:44"
+    },
+    "point5": {
+        "date": "18",
+        "wakeTime": "07:40"
+    },
+    "point6": {
+        "date": "19",
+        "wakeTime": "09:14"
+    },
+    "point7": {
+        "date": "20",
+        "wakeTime": "10:26"
+    },
+    "point8": {
+        "date": "21",
+        "wakeTime": "07:38"
+    },
+    "point9": {
+        "date": "22",
+        "wakeTime": "09:52"
+    },
+    "point10": {
+        "date": "23",
+        "wakeTime": "10:54"
+    },
+    "point11": {
+        "date": "24",
+        "wakeTime": "08:14"
+    },
+    "point12": {
+        "date": "25",
+        "wakeTime": "08:14"
+    },
+    "point13": {
+        "date": "26",
+        "wakeTime": "08:55"
+    },
+    "point14": {
+        "date": "27",
+        "wakeTime": "08:51"
+    },
+    "point15": {
+        "date": "28",
+        "wakeTime": "09:51"
+    },
+    "point16": {
+        "date": "29",
+        "wakeTime": "08:08"
+    },
+    "point17": {
+        "date": "30",
+        "wakeTime": "10:54"
+    }
+}
