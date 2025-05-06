@@ -1,0 +1,36 @@
+/* CSS Reset */
+
+nav ul, nav ol{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, p, ul, ol{
+    margin: 0;
+    padding: 0;
+}
+
+/* End reset */
+
+
+
+h1 {
+    text-align: center;
+}
+p, #interface{
+    margin: 50px;
+    text-align: center;
+}
+
+#picker{
+    /* background-color: rebeccapurple; */
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: xx-large;
+}

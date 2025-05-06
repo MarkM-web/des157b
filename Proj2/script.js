@@ -32,7 +32,7 @@
         
         } else {
             html += '<p>';
-            html += `On April ${jsonData[value].date} I woke up at ${jsonData[value].wakeTime}`;
+            html += `On April ${jsonData[value].date} I woke up at ${jsonData[value].wakeTime}.`;
             html += '</p>';
         }
         document.querySelector('#result').innerHTML = html;
