@@ -3,7 +3,7 @@
     async function getData() {
         const myMoods = await fetch('data2.json');
         const data = await myMoods.json();
-        console.log(data);
+        // console.log(data);
         globalData = data;
         // document.querySelector('#moods').innerHTML = outputHTML1(data);
         document.querySelector('#picker').innerHTML = createSelectList(data);
@@ -13,7 +13,7 @@
         let html = '<option value="none">---</option>';
         // let html = '';
         const dataPoints = Object.keys(data);
-        console.log(dataPoints);
+        // console.log(dataPoints);
         dataPoints.forEach(function (eachPoint){
             html += `<option value="${eachPoint}">${data[eachPoint].date}</option>`;
         });
@@ -46,7 +46,7 @@
             document.querySelector('#myimg').innerHTML = `<img src="images/sun2.svg">`
         } else {
             document.querySelector('#myimg').innerHTML = `<img src="images/sun3.svg">`
-            console.log("oops");
+            // console.log("oops");
         }
 
     }
