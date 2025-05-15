@@ -27,6 +27,8 @@
 
     function updateInterface(value, jsonData){
         let html = '';
+        let hour = jsonData[value].wakeTime.charAt(1);
+
         if (value === "none"){
             // console.log('foo');
         
@@ -36,6 +38,16 @@
             html += '</p>';
         }
         document.querySelector('#result').innerHTML = html;
+        // console.log(jsonData[value].wakeTime);
+        // console.log(jsonData[value].wakeTime.charAt(1));
+        if(hour == '7'){
+            document.querySelector('#myimg').innerHTML = `<img src="images/sun1.svg">`
+        } else if (hour == '8'){
+            document.querySelector('#myimg').innerHTML = `<img src="images/sun2.svg">`
+        } else {
+            document.querySelector('#myimg').innerHTML = `<img src="images/sun3.svg">`
+            console.log("oops");
+        }
 
     }
 
